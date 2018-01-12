@@ -9,7 +9,7 @@ set define off;
   CREATE OR REPLACE PROCEDURE "SYS"."AVG_SAL" (p_dept_id in number, p_avg_sal out number) 
 as 
 begin
-
+---
 --Comment Added testing
   select avg(salary) sal 
   into p_avg_sal
